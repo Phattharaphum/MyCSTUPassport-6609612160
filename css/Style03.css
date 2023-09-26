@@ -1,6 +1,6 @@
 /*html {zoom: 80%;}*/
 body {
-	background-image: url(https://github.com/Phattharaphum/MyCSTUPassport-6609612160/blob/4bc35aa9a68be4ec87347c8c8de306f3bd07f881/image/bg01.jpg);
+	background-image: url(https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg01.jpg);
 	background-attachment:fixed;
 	background-size: cover;
 	width: 100%;
@@ -30,7 +30,7 @@ div.W1 {
 	display: inline-flex;
 	flex-direction: column;
 	width: 100%;
-	background-image: url(https://github.com/Phattharaphum/MyCSTUPassport-6609612160/blob/4bc35aa9a68be4ec87347c8c8de306f3bd07f881/image/bg01blur.jpg);
+	background-image: url(https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg01blur.jpg);
 	background-attachment:fixed;
 	background-size: cover;
 	
