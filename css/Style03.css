@@ -1,6 +1,6 @@
 /*html {zoom: 80%;}*/
 body {
-	background-image: url(bg04.jpg);
+	background-image: url(https://github.com/Phattharaphum/MyCSTUPassport-6609612160/blob/4bc35aa9a68be4ec87347c8c8de306f3bd07f881/image/bg01.jpg);
 	background-attachment:fixed;
 	background-size: cover;
 	width: 100%;
@@ -18,9 +18,6 @@ body {
 div.mainbd {
 	display: inline-flex;
 	flex-direction: column;
-	/*
-	background-image: url("https://drive.google.com/uc?id=1z09kdWnV4UKb3kWgGpzbKIUHTq0DdQ_d") ;
-	background-size: contain; */
 	background-color: #111111;
 	margin: auto;
 	width: 100%;
@@ -33,7 +30,7 @@ div.W1 {
 	display: inline-flex;
 	flex-direction: column;
 	width: 100%;
-	background-image: url(bg04blur.jpg);
+	background-image: url(https://github.com/Phattharaphum/MyCSTUPassport-6609612160/blob/4bc35aa9a68be4ec87347c8c8de306f3bd07f881/image/bg01blur.jpg);
 	background-attachment:fixed;
 	background-size: cover;
 	
