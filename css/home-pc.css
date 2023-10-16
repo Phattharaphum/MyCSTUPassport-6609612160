@@ -1,3 +1,5 @@
+@media screen and (min-width: 1200px)
+{
 /*html {zoom: 80%;}*/
 body {
     /*background-image: linear-gradient(to left ,#13222E, #4D5F6C, #7E888C);
@@ -530,4 +532,5 @@ a:visited {
 
 a:hover {
 	text-decoration: none;
+}
 }
