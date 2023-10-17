@@ -51,6 +51,7 @@ div.nev1 {
     align-self: baseline;
     margin-left: 20em;
     margin-top: 4em;
+	flex-direction: row;
 }
 a.nev2 {
     font-family:space mono ;
