@@ -1,12 +1,8 @@
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 1400px)
 {
 /*html {zoom: 80%;}*/
 body {
-    /*background-image: linear-gradient(to left ,#13222E, #4D5F6C, #7E888C);
-	background-color: #252422; */
 	background-image:url(https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg01.jpg);
-	background-attachment:fixed;
-	background-size: cover;
 	width: 100%;
 	height: 100%;
 	margin-top: 0;
@@ -45,11 +41,15 @@ div.mhead {
     padding: 15px;
     border-radius: 0 0 2em 2em;
     margin: 0 0 2em 2em;
+	transform: scale(1);
+	position: relative;
+	margin-left: 2em;
+	margin-top: 0em;
 }
 div.nev1 {
     color:white ;
     align-self: baseline;
-    margin-left: 30em;
+    margin-left: 20em;
     margin-top: 4em;
 }
 a.nev2 {
@@ -145,7 +145,6 @@ p.mnn3 {
 	position:sticky;
 	margin-left: 25em;
 	border-radius: 50px;
-	/*box-shadow: 10px 10px 20px 1px black*/
 	box-shadow: 8px 8px 5px 0px #252422;
 }
 h2 {
@@ -185,6 +184,7 @@ strong{
 div.mnf1{
 	padding-top: 2em;
 	padding-bottom: 2em;
+	background-color: #111111;
 }
 div.mnf2{
 	margin-top: 5em;
@@ -193,6 +193,7 @@ div.mnf2{
 }
 div.mnf3{
 	margin-top: 5em;
+	background-color: #111111;
 }
 div.mnf4{
 	margin-top: 5em
@@ -209,14 +210,11 @@ div.maininfo1 {
 	font-size: 20pt;
 	font-family: Kanit;
 	line-height: 20pt;
-	/*background-image: linear-gradient(#4D5F6C,#273745);*/
 	background-color : #252422; 
 	margin-left: 80px;
 	padding: 10px 20px 5px 20px;
 	border-radius: 40px;
 	color: white;
-	/*box-shadow:0px 0px 20px 3px rgba(0, 0, 0, 0.5);*/
-	/*box-shadow: 20px 20px 2px 0px #111E2B;*/
 	width: 450px;
 	transition:all 400ms ease-in-out ;
 } 
@@ -228,19 +226,17 @@ p {
 }
 div.t1{
 	width: 700px;
+	display: inline;
 }
 div.maininfo2 {
 	display: inline-flex;
 	font-size: 20pt;
 	font-family: Kanit;
 	line-height: 20pt;
-	/*background-image: linear-gradient(#4D5F6C,#273745); */
 	background-color: #252422;
 	padding: 10px 20px 5px 20px;
 	border-radius: 40px;
 	color: white;
-	/*box-shadow:12px 12px 20px 1px rgba(0, 0, 0, 0.7);
-	box-shadow: 20px 20px 2px 0px #111E2B;*/
 	width: 450px;
 	margin-left: 4px;
 	width: 730px;
@@ -328,7 +324,6 @@ div.maininfo2 {
 	top:100px;
 	left: 600px;
 	transition:transform 400ms ease-in-out;
-	/*box-shadow:8px 8px 5px 1px rgba(0, 0, 0, 0.4);*/
 	box-shadow: 7px 7px 2px 0px #0E0E0E;
 	border-radius: 40px;
 }
@@ -376,7 +371,6 @@ div.maininfo3 {
 	font-size: 20pt;
 	font-family: Kanit;
 	line-height: 20pt;
-	/*background-image: linear-gradient(#4D5F6C,#273745);*/
 	background-color: #252422;
 	padding: 20px 0px 5px 30px;
 	border-radius: 60px;
@@ -441,7 +435,7 @@ div.maininfo5 {
 	border-radius: 0px;
 	color: white;
 	width: 100%;
-	height: 150px;
+	height: 200px;
 	
 }
 .vid1 {
@@ -462,7 +456,9 @@ div.maininfo5 {
 	border-radius: 20px;
 	width: 300px;
 	margin-left: 4em;
-	transition:all 600ms
+	transition:all 600ms;
+	margin-bottom: 2em;
+	align-items: center;
 }
 .cont1:hover{
 	background-color: #292929;
@@ -476,7 +472,7 @@ a.ln{
 	font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 2em;
+    margin-right: 4em;
     font-weight: bold;
     font-size: 20pt;
 	border-radius: 10px;
@@ -485,14 +481,11 @@ a.ln{
 .nev3:hover {
 		background-color: #4E4E4F;
 }
-
-
-
 .nev4 {
 	 font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 2em;
+    margin-right: 4em;
     font-weight: bold;
     font-size: 20pt;
 	border-radius: 10px;
@@ -515,22 +508,6 @@ a.ln{
 .freespace {
 	height: 300px;
 	background-color: transparent;
-	
-}
-.upbody {
-	display: flex;
-	margin: 0 0 0 0;
-	flex-direction: column;
-}
-a:link {
-	text-decoration: none;
-}
-
-a:visited {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: none;
-}
+	display: inline-flex;
+    }
 }

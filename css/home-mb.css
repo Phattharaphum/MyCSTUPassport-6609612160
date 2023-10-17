@@ -1,4 +1,3 @@
-/*html {zoom: 30%;}*/
 body {
 	width: 100%;
 	height: 100%;
@@ -24,7 +23,7 @@ div.W1 {
 	display: inline-flex;
 	flex-direction: column;
 	width: 100%;
-	background-image: url("imgvdo/bg02blur.jpg");
+	background-image: url("https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg02blur.jpg");
 	background-attachment:fixed;
 	background-size:contain;	
 }
